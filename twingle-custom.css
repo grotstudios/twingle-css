@@ -1,6 +1,10 @@
-/* Twingle Footer ausblenden */
+/* TEST: Gesamten Hintergrund einfärben */
+body {
+    background-color: #ff00ff !important;
+}
 
-.footer-payment-preview.start.widget {
-    display: none !important;
-    visibility: hidden !important;
+/* TEST: Footer markieren */
+.footer-payment-preview {
+    background-color: red !important;
+    outline: 5px solid red !important;
 }

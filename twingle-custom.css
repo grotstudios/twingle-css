@@ -1,10 +1,4 @@
-/* TEST: Gesamten Hintergrund einfärben */
-body {
-    background-color: #ff00ff !important;
-}
-
-/* TEST: Footer markieren */
-.footer-payment-preview {
-    background-color: red !important;
-    outline: 5px solid red !important;
+/* Sichtbarer Test innerhalb des Twingle-Widgets */
+body * {
+    outline: 2px solid magenta !important;
 }

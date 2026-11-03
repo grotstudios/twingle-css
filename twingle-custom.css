@@ -1,4 +1,10 @@
-/* Sichtbarer Test innerhalb des Twingle-Widgets */
-body * {
-    outline: 2px solid magenta !important;
+/* Twingle Footer ausblenden */
+
+footer.footer-payment-preview,
+.footer-payment-preview {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }

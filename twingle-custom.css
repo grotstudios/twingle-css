@@ -2,7 +2,7 @@
 
 footer.footer-payment-preview,
 .footer-payment-preview, 
-.start.widget.widget-header{
+div.start.widget.widget-header{
     display: none !important;
     visibility: hidden !important;
     height: 0 !important;

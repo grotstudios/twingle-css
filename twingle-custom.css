@@ -1,6 +1,6 @@
 /* Twingle Footer ausblenden */
 
-footer.footer-payment-preview.start.widget {
+.footer-payment-preview.start.widget {
     display: none !important;
     visibility: hidden !important;
 }
